@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var request = APIRequest()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(request.results) { movie in
+                NavigationLink {
+                    DetailView(movie: movie)
+                } label: {
+                    MovieItem(movie: movie)
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("A l'affiche")
+            
+        } 
+        .onAppear() {
+            request.callAPI()
         }
-        .padding()
     }
 }
 

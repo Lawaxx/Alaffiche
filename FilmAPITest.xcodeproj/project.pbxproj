@@ -11,6 +11,12 @@
 		229A06FE2B0BD50500CB02C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A06FD2B0BD50500CB02C0 /* ContentView.swift */; };
 		229A07002B0BD50600CB02C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A06FF2B0BD50600CB02C0 /* Assets.xcassets */; };
 		229A07032B0BD50600CB02C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A07022B0BD50600CB02C0 /* Preview Assets.xcassets */; };
+		229A070A2B0BD51A00CB02C0 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A07092B0BD51A00CB02C0 /* APIRequest.swift */; };
+		229A070C2B0BD63E00CB02C0 /* API_KEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A070B2B0BD63E00CB02C0 /* API_KEY.swift */; };
+		229A070E2B0BDB3700CB02C0 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A070D2B0BDB3700CB02C0 /* Results.swift */; };
+		229A07102B0BE41A00CB02C0 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A070F2B0BE41A00CB02C0 /* MovieItem.swift */; };
+		229A07122B0BE54700CB02C0 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A07112B0BE54700CB02C0 /* ImageDownloader.swift */; };
+		229A07142B0BE9D400CB02C0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A07132B0BE9D400CB02C0 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		229A06FD2B0BD50500CB02C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		229A06FF2B0BD50600CB02C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229A07022B0BD50600CB02C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		229A07092B0BD51A00CB02C0 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		229A070B2B0BD63E00CB02C0 /* API_KEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_KEY.swift; sourceTree = "<group>"; };
+		229A070D2B0BDB3700CB02C0 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		229A070F2B0BE41A00CB02C0 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		229A07112B0BE54700CB02C0 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		229A07132B0BE9D400CB02C0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				229A06FB2B0BD50500CB02C0 /* FilmAPITestApp.swift */,
 				229A06FD2B0BD50500CB02C0 /* ContentView.swift */,
+				229A07132B0BE9D400CB02C0 /* DetailView.swift */,
+				229A07112B0BE54700CB02C0 /* ImageDownloader.swift */,
+				229A070F2B0BE41A00CB02C0 /* MovieItem.swift */,
+				229A07092B0BD51A00CB02C0 /* APIRequest.swift */,
+				229A070D2B0BDB3700CB02C0 /* Results.swift */,
+				229A070B2B0BD63E00CB02C0 /* API_KEY.swift */,
 				229A06FF2B0BD50600CB02C0 /* Assets.xcassets */,
 				229A07012B0BD50600CB02C0 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				229A06FE2B0BD50500CB02C0 /* ContentView.swift in Sources */,
+				229A07142B0BE9D400CB02C0 /* DetailView.swift in Sources */,
+				229A070A2B0BD51A00CB02C0 /* APIRequest.swift in Sources */,
+				229A07122B0BE54700CB02C0 /* ImageDownloader.swift in Sources */,
+				229A070C2B0BD63E00CB02C0 /* API_KEY.swift in Sources */,
+				229A07102B0BE41A00CB02C0 /* MovieItem.swift in Sources */,
 				229A06FC2B0BD50500CB02C0 /* FilmAPITestApp.swift in Sources */,
+				229A070E2B0BDB3700CB02C0 /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
